@@ -1,0 +1,26 @@
+[library]
+[library.SoilData]
+language = "python"
+library = "soilgrids"
+header = ""
+entry_point = "BmiSoilGrids"
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_soilgrids"
+requirements = [""]
+
+[info]
+github_username = "gantian127"
+package_author = "Tian Gan"
+package_author_email = "gantian127@gmail.com"
+package_license = "MIT"
+summary = "PyMT plugin for soilgrids data"
+

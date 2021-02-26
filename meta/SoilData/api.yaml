@@ -1,0 +1,4 @@
+name: pymt_soilgrids
+language: python
+package: pymt_soilgrids
+class: SoilData
