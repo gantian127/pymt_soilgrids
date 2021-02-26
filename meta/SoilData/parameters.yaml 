@@ -1,0 +1,142 @@
+service_id:
+  name: Service ID
+  description: Map service identifier for a map service
+  value:
+    type: string
+    default: 
+    units: 
+    range:
+      min: 
+      max: 
+
+coverage_id:
+  name: Coverage ID
+  description: Map coverage identifier supported by a map service.
+  value:
+    type: string
+    default: 
+    range:
+      min:
+      max: 
+    units: 
+
+crs:
+  name: Coordinate System
+  description: Coordinate system code for a map coverage.
+  value:
+    type: string
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+west:
+  name: West Coordinate 
+  description: The west value is for the point on the lower left corner of the bounding box
+  value:
+    type: float
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+south:
+  name: South Coordinate 
+  description: The south value is for the point on the lower left corner of the bounding box
+  value:
+    type: float
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+east:
+  name: East Coordinate 
+  description: The east value is for the point on the upper right corner of the bounding box
+  value:
+    type: float
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+north:
+  name: North Coordinate 
+  description: The north value is for the point on the upper right corner of the bounding box
+  value:
+    type: float
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+rsex:
+  name: X Resolution
+  description: Pixel resolution in x direction
+  value:
+    type: float
+    default: 
+    range:
+      min: 
+      max: 
+    units: meter
+
+rsey:
+  name: Y Resolution
+  description: Pixel resolution in y direction
+  value:
+    type: float
+    default: 
+    range:
+      min: 
+      max: 
+    units: meter
+
+width:
+  name: Width
+  description: Width in pixels for data download.
+  value:
+    type: int
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+height:
+  name: Height
+  description: Height in pixels for data download.
+  value:
+    type: int
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+response_crs:
+  name: Response Coordinate System
+  description: Coordinate system code for the GeoTiff file.
+  value:
+    type: string
+    default: 
+    range:
+      min: 
+      max: 
+    units: 
+
+output:
+  name: Output
+  description: File name for the output GeoTiff file.
+  value:
+    type: string
+    default: 
+    range:
+      min: 
+      max: 
+    units: 

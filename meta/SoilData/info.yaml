@@ -1,0 +1,6 @@
+summary: This data component fetches the global gridded soil information from SoilGrids system.
+url: https://github.com/gantian127/soilgrids/
+author: Tian Gan
+email: gantian127@gmail.com
+version: 0.1
+license: MIT
