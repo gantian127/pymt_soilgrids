@@ -10,9 +10,6 @@ pymt_soilgrids
 .. image:: https://img.shields.io/badge/recipe-pymt_soilgrids-green.svg
         :target: https://anaconda.org/conda-forge/pymt_soilgrids
 
-.. image:: https://mybinder.org/badge_logo.svg
-        :target: https://mybinder.org/v2/gh/gantian127/pymt_soilgrids/master?filepath=notebooks%2Fpymt_soilgrids.ipynb
-
 .. image:: https://readthedocs.org/projects/pymt-soilgrids/badge/?version=latest
         :target: https://pymt-soilgrids.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
@@ -72,8 +69,3 @@ or
 .. code::
 
   conda install pymt_soilgrids
-
--------------------------
-Coding Example
--------------------------
-You can click on the "launch binder" badge to run an example Jupyter Notebook to learn how to use it.

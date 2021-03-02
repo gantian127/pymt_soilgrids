@@ -23,22 +23,15 @@ Install the pymt in a new environment:
   $ conda activate pymt
 
 
-Install the pymt_soilgrids using pip or conda:
+Install the pymt_soilgrids using pip:
 
 .. code::
 
   $ pip install pymt_soilgrids
 
 
-.. code::
-
-  $ conda install pymt_soilgrids
-
-
 Coding Example
 --------------
-
-You can launch binder to test and run the code below. |binder|
 
 .. code-block:: python
 
