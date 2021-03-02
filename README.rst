@@ -10,33 +10,21 @@ pymt_soilgrids
 .. image:: https://img.shields.io/badge/recipe-pymt_soilgrids-green.svg
         :target: https://anaconda.org/conda-forge/pymt_soilgrids
 
-.. image:: https://img.shields.io/travis/gantian127/pymt_soilgrids.svg
-        :target: https://travis-ci.org/gantian127/pymt_soilgrids
+.. image:: https://mybinder.org/badge_logo.svg
+        :target: https://mybinder.org/v2/gh/gantian127/pymt_soilgrids/master?filepath=notebooks%2Fpymt_soilgrids.ipynb
 
 .. image:: https://readthedocs.org/projects/pymt-soilgrids/badge/?version=latest
         :target: https://pymt-soilgrids.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-        :target: https://github.com/csdms/pymt
-        :alt: Code style: black
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+        :target: hhttps://github.com/gantian127/pymt_soilgrids/blob/master/LICENSE
 
 
-PyMT plugin for soilgrids data
-
-
-* Free software: MIT License
-* Documentation: https://pymt-soilgrids.readthedocs.io.
-
-
-
-
-========= ===================================
-Component PyMT
-========= ===================================
-
-SoilData  `from pymt.models import SoilData`
-========= ===================================
+pymt_soilgrids is a package that converts `soilgrids package <https://github.com/gantian127/soilgrids>`_ into a reusable,
+plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework.
+This allows the soil datasets to be easily coupled with other datasets or models that expose
+a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
 ---------------
 Installing pymt
@@ -73,10 +61,19 @@ It is possible to list all of the versions of `pymt` available on your platform 
 Installing pymt_soilgrids
 -------------------------
 
-
-
 To install `pymt_soilgrids`,
 
 .. code::
 
+  pip install pymt_soilgrids
+
+Or
+
+.. code::
+
   conda install pymt_soilgrids
+
+-------------------------
+Coding Example
+-------------------------
+You can click on the "launch binder" badge to run an example Jupyter Notebook to learn how to use it.
