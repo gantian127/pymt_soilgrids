@@ -17,7 +17,7 @@ Installation
 Install the pymt in a new environment:
 
 .. code::
-
+  $ conda config --add channels conda-forge
   $ conda create -n pymt -c conda-forge python=3 pymt
   $ conda activate pymt
 

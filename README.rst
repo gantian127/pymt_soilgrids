@@ -67,7 +67,7 @@ To install `pymt_soilgrids`,
 
   pip install pymt_soilgrids
 
-Or
+or
 
 .. code::
 
