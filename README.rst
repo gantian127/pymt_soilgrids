@@ -64,8 +64,3 @@ To install `pymt_soilgrids`,
 
   pip install pymt_soilgrids
 
-or
-
-.. code::
-
-  conda install pymt_soilgrids
