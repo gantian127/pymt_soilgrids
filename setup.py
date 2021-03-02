@@ -27,7 +27,7 @@ setup(
     author_email="gantian127@gmail.com",
     description="PyMT plugin for pymt_soilgrids",
     long_description=long_description,
-    version="0.1",
+    version="0.1.1",
     url="https://github.com/gantian127/pymt_soilgrids",
     classifiers=[
         "Development Status :: 4 - Beta",
