@@ -17,6 +17,7 @@ Installation
 Install the pymt in a new environment:
 
 .. code::
+
   $ conda config --add channels conda-forge
   $ conda create -n pymt -c conda-forge python=3 pymt
   $ conda activate pymt
@@ -91,6 +92,9 @@ You can launch binder to test and run the code below. |binder|
     plt.xlabel('X')
     plt.ylabel('Y')
     plt.title('Mean pH between 0 and 5 cm soil depth in Senegal')
+
+    # complete the example by finalizing the component
+    data_comp.finalize()
 
 |tif_plot|
 
