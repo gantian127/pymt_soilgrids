@@ -1,0 +1,90 @@
+service_id:
+  name: Service ID
+  description: Map service identifier for a map service
+  value:
+    type: string
+    default: phh2o
+    units: 1
+coverage_id:
+  name: Coverage ID
+  description: Map coverage identifier supported by a map service
+  value:
+    type: string
+    default: phh2o_0-5cm_mean
+    units: 1
+crs:
+  name: Coordinate system
+  description: Coordinate system code for a map coverage
+  value:
+    type: string
+    default: urn:ogc:def:crs:EPSG::152160
+west:
+  name: Bounding box west coordinate
+  description: The x value for the point on the lower left corner of the bounding box.
+  value:
+    type: float
+    default: -1784000
+    units: meters
+south:
+  name: Bounding box south Coordinate
+  description: The y value for the point on the lower left corner of the bounding box
+  value:
+    type: float
+    default: 1356000
+    units: meters
+east:
+  name: Bounding box east Coordinate
+  description: The x value for the point on the upper right corner of the bounding box
+  value:
+    type: float
+    default: -1140000
+    units: meters
+north:
+  name: Bounding box North Coordinate
+  description: The y value for the point on the upper right corner of the bounding box
+  value:
+    type: float
+    default: 1863000
+    units: meters
+resx:
+  name: X Resolution
+  description: Pixel resolution in x direction
+  value:
+    type: float
+    default: 250.0
+    units: meters
+resy:
+  name: Y Resolution
+  description: Pixel resolution in y direction
+  value:
+    type: float
+    default: 250.0
+    units: meters
+width:
+  name: Width
+  description: Total number of pixels for the width of subset data.
+  value:
+    type: int
+    default: 316
+    units: 1
+height:
+  name: Height
+  description: Total number of pixels for the height of subset data.
+  value:
+    type: int
+    default: 275
+    units: 1
+response_crs:
+  name: Response Coordinate System
+  description: Coordinate system code for the output GeoTiff file.
+  value:
+    type: string
+    default: urn:ogc:def:crs:EPSG::152160
+    units: 1
+output:
+  name: Output
+  description: File name for the output GeoTiff file.
+  value:
+    type: string
+    default: 'test.tif'
+    units: 1
