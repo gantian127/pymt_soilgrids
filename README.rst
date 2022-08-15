@@ -64,3 +64,8 @@ To install `pymt_soilgrids`,
 
   pip install pymt_soilgrids
 
+--------------
+Coding Example
+--------------
+You can learn more details about the coding example from the
+`tutorial notebook <https://github.com/gantian127/pymt_soilgrids/blob/master/notebooks/pymt_soilgrids.ipynb>`_.

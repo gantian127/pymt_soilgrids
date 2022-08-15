@@ -5,7 +5,7 @@
     :target: https://pymt_soilgrids.readthedocs.io/
 
 
-pymt_soilgrids converts `soilgrids <https://soilgrids.readthedocs.io/en/latest/?badge=latest>`_ into a reusable,
+`pymt_soilgrids <https://github.com/gantian127/pymt_soilgrids>`_ converts `soilgrids <https://soilgrids.readthedocs.io/en/latest/?badge=latest>`_ into a reusable,
 plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework.
 pymt_soilgrids allows the soil datasets to be easily coupled with other datasets or models that expose
 a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
@@ -72,8 +72,8 @@ Coding Example
 
     # get X, Y extent for plot
     min_y, min_x = grid_origin
-    max_y = min_y + grid_spacing[0]*grid_shape[0]
-    max_x = min_x + grid_spacing[1]*grid_shape[1]
+    max_y = min_y + grid_spacing[0]*(grid_shape[0]-1)
+    max_x = min_x + grid_spacing[1]*(grid_shape[1]-1)
     dy = grid_spacing[0]/2
     dx = grid_spacing[1]/2
     extent = [min_x - dx, max_x + dx, min_y - dy, max_y + dy]
