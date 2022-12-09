@@ -29,6 +29,11 @@ Install the pymt_soilgrids using pip:
 
   $ pip install pymt_soilgrids
 
+or conda:
+
+.. code::
+
+  $ conda install pymt_soilgrids
 
 Coding Example
 --------------
