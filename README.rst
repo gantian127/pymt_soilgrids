@@ -58,12 +58,17 @@ It is possible to list all of the versions of `pymt` available on your platform 
 Installing pymt_soilgrids
 -------------------------
 
-To install `pymt_soilgrids`,
+To install `pymt_soilgrids`, use pip 
 
 .. code::
 
   pip install pymt_soilgrids
 
+or conda.
+
+.. code::
+
+  conda install pymt_soilgrids
 --------------
 Coding Example
 --------------
