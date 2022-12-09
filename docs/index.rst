@@ -33,7 +33,7 @@ or conda:
 
 .. code::
 
-  $ conda install pymt_soilgrids
+  $ conda install -c conda-forge pymt_soilgrids
 
 Coding Example
 --------------
