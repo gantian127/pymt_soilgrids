@@ -37,6 +37,7 @@ or conda:
 
 Coding Example
 --------------
+You can learn more details from the `tutorial notebook <https://github.com/gantian127/pymt_soilgrids/blob/master/notebooks/pymt_soilgrids.ipynb>`_.
 
 .. code-block:: python
 
