@@ -2,7 +2,7 @@
     :align: center
     :scale: 35%
     :alt: pymt_soilgrids
-    :target: https://pymt_soilgrids.readthedocs.io/
+    :target: https://pymt-soilgrids.readthedocs.io/en/latest/
 
 
 `pymt_soilgrids <https://github.com/gantian127/pymt_soilgrids>`_ converts `soilgrids <https://soilgrids.readthedocs.io/en/latest/?badge=latest>`_ into a reusable,
