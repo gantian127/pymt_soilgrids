@@ -1,7 +1,8 @@
 ==============
 pymt_soilgrids
 ==============
-
+.. image:: https://zenodo.org/badge/342719220.svg
+  :target: https://zenodo.org/doi/10.5281/zenodo.10368884
 
 .. image:: https://img.shields.io/badge/CSDMS-Basic%20Model%20Interface-green.svg
         :target: https://bmi.readthedocs.io/
