@@ -1,8 +1,5 @@
 #! /usr/bin/env python
-import os
-import sys
-
-from setuptools import Extension, find_packages, setup
+from setuptools import find_packages, setup
 
 entry_points = {
     "pymt.plugins": [
