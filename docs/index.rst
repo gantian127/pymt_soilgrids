@@ -48,7 +48,7 @@ You can learn more details from the `tutorial notebook <https://github.com/ganti
 
     # initiate a data component
     data_comp = SoilData()
-    data_comp.initialize('config.yaml')
+    data_comp.initialize('config_file.yaml')
 
     # get variable info
     var_name = data_comp.output_var_names[0]
@@ -86,7 +86,7 @@ You can learn more details from the `tutorial notebook <https://github.com/ganti
 
     # plot data
     fig, ax = plt.subplots(1,1, figsize=(9,5))
-    im = ax.imshow(data_2D, extent=extent)
+    im = ax.imshow(data_2D, extent=extent, vmin=0)
     fig.colorbar(im)
     plt.xlabel('X')
     plt.ylabel('Y')

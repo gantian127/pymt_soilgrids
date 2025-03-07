@@ -4,14 +4,12 @@ service_id:
   value:
     type: string
     default: phh2o
-    units: 1
 coverage_id:
   name: Coverage ID
   description: Map coverage identifier supported by a map service
   value:
     type: string
     default: phh2o_0-5cm_mean
-    units: 1
 crs:
   name: Coordinate system
   description: Coordinate system code for a map coverage
@@ -80,11 +78,9 @@ response_crs:
   value:
     type: string
     default: urn:ogc:def:crs:EPSG::152160
-    units: 1
 output:
   name: Output
   description: File name for the output GeoTiff file.
   value:
     type: string
     default: 'test.tif'
-    units: 1
