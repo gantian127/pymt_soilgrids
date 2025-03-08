@@ -70,6 +70,7 @@ or conda.
 .. code::
 
   conda install -c conda-forge pymt_soilgrids
+
 --------------
 Coding Example
 --------------
