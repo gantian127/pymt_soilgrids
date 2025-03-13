@@ -35,6 +35,20 @@ or conda:
 
   $ conda install -c conda-forge pymt_soilgrids
 
+
+Citation
+--------------
+Please include the following references when citing this software package:
+
+Gan, T., Tucker, G.E., Hutton, E.W.H., Piper, M.D., Overeem, I., Kettner, A.J.,
+Campforts, B., Moriarty, J.M., Undzis, B., Pierce, E., McCready, L., 2024:
+CSDMS Data Components: data–model integration tools for Earth surface processes
+modeling. Geosci. Model Dev., 17, 2165–2185. https://doi.org/10.5194/gmd-17-2165-2024
+
+Gan, T. (2025). PyMT plugin for CSDMS SoilGrids Data Component. Zenodo.
+https://doi.org/10.5281/zenodo.10368884
+
+
 Coding Example
 --------------
 You can learn more details from the `tutorial notebook <https://github.com/gantian127/pymt_soilgrids/blob/master/notebooks/pymt_soilgrids.ipynb>`_.
